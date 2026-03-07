@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jingjing Fang | Personal Brand Website</title>
+  <meta name="description" content="Professional portfolio website for Jingjing Fang, Fashion Marketing and Management student at SCAD." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Sora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <strong>Jingjing Fang</strong>
+        <span>Fashion Marketing Portfolio</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="about.html" data-page="about">About</a>
+        <a href="portfolio.html" data-page="portfolio">Portfolio</a>
+        <a href="resume.html" data-page="resume">Resume</a>
+        <a href="contact.html" data-page="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero reveal">
+      <span class="eyebrow">Personal Branding Statement</span>
+      <h1>Curating Quiet Luxury Through Strategy and Storytelling</h1>
+      <p>
+        I build brand experiences that transform heritage into digital relevance.
+        My work combines market insight, visual curation, and client-centered storytelling
+        to position luxury brands for the next generation of global consumers.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="portfolio.html">View Portfolio</a>
+        <a class="btn btn-ghost" href="assets/docs/resume-jing.pdf" download>Download Resume</a>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <div class="section-head">
+        <h2>Signature Focus</h2>
+        <p>
+          This website showcases my capstone work, curated projects, and professional profile
+          for recruiters in fashion marketing, brand management, and luxury retail strategy.
+        </p>
+      </div>
+      <div class="grid grid-three">
+        <article class="card">
+          <div class="mini-stat"><strong>$1.5T</strong><span>global luxury market context</span></div>
+          <p>Grounding strategic decisions in market scale and consumer behavior trends.</p>
+        </article>
+        <article class="card">
+          <div class="mini-stat"><strong>75%</strong><span>transparency demand</span></div>
+          <p>Prioritizing provenance and trust as a luxury differentiator.</p>
+        </article>
+        <article class="card">
+          <div class="mini-stat"><strong>80%</strong><span>digital influence</span></div>
+          <p>Designing high-touch digital moments without losing exclusivity.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <div class="section-head">
+        <h2>Featured Capstone</h2>
+        <p>
+          <strong>Loro Piana: Heritage Studio</strong> is an invitation-only concept that merges bespoke craftsmanship,
+          digital co-creation, and end-to-end transparency for UHNWI clients.
+        </p>
+      </div>
+      <div class="grid grid-two">
+        <article class="card">
+          <h3>What I Built</h3>
+          <ul>
+            <li>Market and primary research synthesis</li>
+            <li>Strategic positioning and persona development</li>
+            <li>Product, lifecycle, and campaign planning</li>
+            <li>Financial projection and KPI framework</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="portfolio.html">Read Case Study</a>
+            <a class="btn btn-ghost" href="assets/docs/curated-transparency.pdf" target="_blank" rel="noopener">Open Project PDF</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Sizzle Reel Slot (60s)</h3>
+          <p>
+            Place your final video at <code>assets/videos/sizzle-reel.mp4</code> and this section becomes your
+            attention-grabbing intro for employers.
+          </p>
+          <video controls preload="metadata" style="width:100%; border-radius:12px; border:1px solid rgba(27,26,24,.12); background:#efe7d8;">
+            <source src="assets/videos/sizzle-reel.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p class="muted">Current file is optional and can be added later without changing the layout.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year"></span> Jingjing Fang. Built for FASM 430 Personal Website Project.</div>
+    <div>Email: <a href="mailto:jingjing@gmail.com">jingjing@gmail.com</a></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

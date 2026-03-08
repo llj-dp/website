@@ -353,6 +353,15 @@ section {
   border: 0;
 }
 
+.sizzle-video {
+  width: 100%;
+  max-height: 560px;
+  border-radius: 12px;
+  border: 1px solid rgba(27, 26, 24, 0.12);
+  background: #efe7d8;
+  object-fit: cover;
+}
+
 .contact-list a {
   color: var(--accent);
 }
@@ -463,5 +472,9 @@ textarea {
   .pdf-wrap,
   .pdf-wrap iframe {
     min-height: 62vh;
+  }
+
+  .sizzle-video {
+    max-height: 430px;
   }
 }
